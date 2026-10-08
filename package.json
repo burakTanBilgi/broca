@@ -1,0 +1,13 @@
+{
+  "name": "broca",
+  "version": "0.1.1",
+  "private": true,
+  "description": "A mouth and a pair of ears for one Claude Code chat: speaks its » lines, draws both voices as waves.",
+  "type": "module",
+  "engines": { "node": ">=25" },
+  "bin": { "broca": "bin/broca" },
+  "scripts": {
+    "test": "node --test 'tests/*.test.ts'",
+    "typecheck": "tsc -p ."
+  }
+}
