@@ -1,6 +1,6 @@
 {
   "name": "broca",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "A mouth and a pair of ears for one Claude Code chat: speaks its » lines, draws both voices as waves.",
   "type": "module",

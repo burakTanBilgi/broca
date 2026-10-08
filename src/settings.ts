@@ -16,7 +16,7 @@ export interface Settings {
 
 export const SETTINGS_FILE = join(homedir(), '.config', 'broca', 'settings.json');
 export const DEFAULT_SETTINGS: Settings = {
-  voice: 'en-US-BrianMultilingualNeural', ttsCommand: 'uvx', ttsArgs: ['edge-tts'], player: 'pw-play',
+  voice: 'en-US-BrianMultilingualNeural', ttsCommand: 'uvx', ttsArgs: ['edge-tts@7.2.8'], player: 'pw-play',
   voiceStop: false, listenRatio: 3, clearAfterMs: 3000, projectsDir: DEFAULT_PROJECTS_DIR,
 };
 

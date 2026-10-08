@@ -36,7 +36,7 @@ Settings go in the optional file `~/.config/broca/settings.json`. Every key is o
 | --- | --- | --- |
 | `voice` | `en-US-BrianMultilingualNeural` | an edge-tts voice; a Multilingual one says Turkish too |
 | `ttsCommand` | `uvx` | the program that runs edge-tts |
-| `ttsArgs` | `["edge-tts"]` | its leading arguments |
+| `ttsArgs` | `["edge-tts@7.2.8"]` | its leading arguments; the version is pinned so a new release never runs untested |
 | `player` | `pw-play` | `pw-play` or `mpv` |
 | `voiceStop` | `false` | cut speech when you start talking; off because speakers would feed Broca's voice back |
 | `listenRatio` | `3` | how many times louder than the room's noise counts as you talking |
